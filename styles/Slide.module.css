@@ -1,0 +1,22 @@
+.container {
+  width: 90%;
+  height: 500px;
+  margin: 5%;
+}
+
+.slickslide {
+  height: 320px;
+  border: 4px solid #F25634;
+  box-sizing: border-box;
+}
+
+.slickslide_img {
+  height: 100%;
+  width: 100%;
+  border: 2.5px solid white;
+  box-sizing: border-box;
+}
+
+.linear_img {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+}
