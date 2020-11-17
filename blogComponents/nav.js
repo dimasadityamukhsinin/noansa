@@ -1,11 +1,11 @@
 import React from "react";
-import Link from "next/link";
+import styles from '../styles/blogStyle.module.css';
 
 const Nav = ({ categories }) => {
   return (
     <div>
         <nav className="uk-navbar" data-uk-navbar="true">
-            <ul className="uk-navbar-nav mt-2 mb-3" style={{ margin: 'auto' }}>
+            <ul className={`uk-navbar-nav mt-2 mb-3 ${styles.navBlog}`} style={{ margin: 'auto' }}>
                 {categories.map((category) => {
                 return (
                     <li key={category.id}>
