@@ -20,7 +20,9 @@ html {
   scroll-behavior: smooth;
 }
 
-.uk-container-small iframe {
-  max-width: 100%;
-  height: auto;
+@media (max-width: 992px) {
+  .uk-container-small iframe {
+    max-width: 100%;
+    height: auto;
+  }
 }
