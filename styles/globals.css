@@ -19,3 +19,8 @@ a {
 html {
   scroll-behavior: smooth;
 }
+
+.uk-container-small iframe {
+  max-width: 100%;
+  height: auto;
+}

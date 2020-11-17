@@ -7,7 +7,6 @@ const Footer = () => {
     return(
       <Container fluid className={`mt-3 p-2 ${styles.footer}`}>
         <span>Copyright © 2020 Noansa | Powered by Noansa</span>
-        <Link href="/blog">BLOG</Link>
       </Container>
     );
 }
