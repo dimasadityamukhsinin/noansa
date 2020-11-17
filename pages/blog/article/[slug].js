@@ -8,24 +8,7 @@ import Navigationbar from "../../Navigationbar";
 
 const Article = ({ article, categories }) => {
   const imageUrl = getStrapiMedia(article.image);
-
-  const MyImage = props => {
-    return (
-      <img
-        className="img-fluid"
-        alt={props.alt}
-        src={props.src}
-      />
-    );
-  };
-
-      //ReactMarkdown accepts custom renderers
-    const renderers = {
-        //This custom renderer changes how images are rendered
-        //we use it to constrain the max width of an image to its container
-        image: MyImage
-    };
-
+  
   return (
     <>
         <Navigationbar/>
